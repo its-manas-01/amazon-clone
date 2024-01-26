@@ -1,0 +1,20 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.navbar{
+    /* background-color: black; */
+    height: 60px;
+    width: 100%;
+}
+.img{
+    width: 128.73px;
+    height: 60px;
+}
+.address{
+    width: 195.3px;
+    height: 60px;
+
+}
