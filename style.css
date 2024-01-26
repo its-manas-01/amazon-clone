@@ -1,20 +1,15 @@
 *{
-    border: 0px;
     margin: 0px;
     padding: 0px;
-    display: flex;
+    
 }
 .navbar{
-    /* background-color: black; */
     height: 60px;
-    width: 100%;
+    width: 600px;
+    background-color: rgb(5, 40, 40);
+    display: flex;
 }
 .img{
-    width: 128.73px;
     height: 60px;
-}
-.address{
-    width: 195.3px;
-    height: 60px;
-
+    width: 40px;
 }
