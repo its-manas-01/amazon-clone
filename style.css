@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    
+    border: box-border;
 }
 .navber{
     height: 60px;
@@ -10,7 +10,7 @@
     display: flex;
 }
 .img{
-    height: 60px;
+    height:auto;
     width: 113px;
     display: flex;
     background-image: url(amazon.png);
@@ -48,6 +48,8 @@
 .search{
     height: 60px;
     width: 450.56px;
+    display: flex;
+    align-items: center;
 }
 .list{
     height: 40px;
@@ -58,11 +60,64 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
 }
+.input{
+    height: 36px;
+    width: 342.51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 7px 10px 10px 0px; */
+}
+#search-icon{
+    height: 40px;
+    width: 44.85px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.lang{
+    height: 60px;
+    width: 73.38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.country{
+    height: 16px;
+    width: 21px;
+    display: flex;
+    background-image: url(flag.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.language{
+    height: 15px;
+    width: 48.38px;
+    display: flex;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 .border{
-    border-radius: 4px solid;
+    box-sizing: 2px;
+    border-style: solid;
     border-color: transparent;
 } 
-.border :click{
-    border-radius: 4px solid rgb(85, 85, 6);
+.border :hover{
+    border-style: solid;
+    border-color: white;
+    box-sizing: 1px;
 }

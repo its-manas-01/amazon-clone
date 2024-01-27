@@ -9,18 +9,21 @@
     <script type="module" src="model.js"></script>
 </head>
 <body>
-    <div class="navber">
-        <div class="img">
-            <!-- <img src="amazon.png" > -->
-        </div>
-        <div class="address">
+    <div class="navber ">
+        <!-- starting of logo -->
+        <div class="img border"></div>
+        <!-- ending of logo -->
+        <!-- starting of deliver <address></address> -->
+        <div class="address border">
             <div>
                 <i class="fa-solid fa-location-dot" id ="location"></i>
                 <span class="deliver">Deliver to</span>
                 <span class="india">India</span>
             </div>
         </div>
-        <div class="search border">
+        <!-- ending of deliver address -->
+        <!-- starting of search bar -->
+        <div class="search">
             <select class="list">
                 <option value="all">All</option>
                 <option value="arts &crafts">Arts & Crafts</option>
@@ -50,6 +53,22 @@
                 <option value="toy's & games">Toy's & Games</option>
                 <option value="video games">Video Games</option>
                 <option value="women's fashion">Women's Fashion</option>
+            </select>
+            <input type="text"class="input" placeholder="search amazon">
+            <button id="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        <!-- ending of search bar -->
+        <!-- starting of language -->
+        <div class="lang border">
+            <div class="country"></div>
+            <select class="language">
+                <option value="english">En</option>
+                <option value="bengali">Bengali</option>
+                <option value="hindi">Hindi</option>
+                <option value="tamil">Tamil</option>
+                <option value="talagu">Talagu</option>
             </select>
         </div>
     </div>
