@@ -9,81 +9,111 @@
     <script type="module" src="model.js"></script>
 </head>
 <body>
-    <div class="navber ">
-        <!-- starting of logo -->
-        <div class="img border"></div>
-        <!-- ending of logo -->
-        <!-- starting of deliver <address></address> -->
-        <div class="address border">
-            <div>
-                <i class="fa-solid fa-location-dot" id ="location"></i>
-                <span class="deliver">Deliver to</span>
-                <span class="india">India</span>
+    <header>
+        <div class="navber ">
+            <!-- starting of logo -->
+            <div class="img border"></div>
+            <!-- ending of logo -->
+            <!-- starting of deliver <address></address> -->
+            <div class="address border">
+                <div>
+                    <span class="deliver">Deliver to</span>
+                    <span class="india">India</span>
+                    <i class="fa-solid fa-location-dot" id ="location"></i>
+                </div>
             </div>
+            <!-- ending of deliver address -->
+            <!-- starting of search bar -->
+            <div class="search">
+                <select class="list">
+                    <option value="all">All</option>
+                    <option value="arts &crafts">Arts & Crafts</option>
+                    <option value="automotive">Automotive</option>
+                    <option value="baby">Baby</option>
+                    <option value="beauty &personal care">Beauty % personal Care</option>
+                    <option value="books">Books</option>
+                    <option value="boy's fashion">Boy's Fashion</option>
+                    <option value="computers">Computers</option>
+                    <option value="deals">deals</option>
+                    <option value="digital music">Digital Music</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="girl's fashion">Girl's Fashion</option>
+                    <option value="health & household">Health & Household</option>
+                    <option value="home &kitchen">Home &Kitchen</option>
+                    <option value="industrial & scientific">Industrial & Scientific</option>
+                    <option value="kindle store">Kindle Store</option>
+                    <option value="luggage">Luggage</option>
+                    <option value="men's fashion">Men's Fashion</option>
+                    <option value="movies & tv">Movies & TV</option>
+                    <option value="music, cds & vinyl">Music, CDs & Vinyl</option>
+                    <option value="pet supplies">Pet Supplies</option>
+                    <option value="prime video">Prime Video</option>
+                    <option value="software">Software</option>
+                    <option value="sports & outdoors">Sports & Outdoors</option>
+                    <option value="tools & home improvement">Tools & Home Improvement</option>
+                    <option value="toy's & games">Toy's & Games</option>
+                    <option value="video games">Video Games</option>
+                    <option value="women's fashion">Women's Fashion</option>
+                </select>
+                <input type="text"class="input" placeholder="search amazon">
+                <button id="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <!-- ending of search bar -->
+            <!-- starting of language -->
+            <div class="lang border">
+                <div class="country"></div>
+                <select class="language">
+                    <option value="english">En</option>
+                    <option value="bengali">Bengali</option>
+                    <option value="hindi">Hindi</option>
+                    <option value="tamil">Tamil</option>
+                    <option value="talagu">Talagu</option>
+                </select>
+            </div>
+            <!-- ending of language -->
+            <!-- starting of sign in  -->
+            <div class="link">
+                <span class="login">Hello, sign in</span>
+                <span class="items">Accounts & Lists<i class="fa-solid fa-caret-down"></i></span>
+            </div>
+            <!-- ending of sing in  -->
+            <!--starting of order -->
+            <div class="order">
+                <span class="return">Returns</span>
+                <span class="order1">& Order</span>
+            </div>
+            <!--ending of order -->
+            <!-- starting of cart -->
+            <div class="cart">
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="cart-text">Cart</div>
+            </div>
+            <!-- ending of cart -->
         </div>
-        <!-- ending of deliver address -->
-        <!-- starting of search bar -->
-        <div class="search">
-            <select class="list">
-                <option value="all">All</option>
-                <option value="arts &crafts">Arts & Crafts</option>
-                <option value="automotive">Automotive</option>
-                <option value="baby">Baby</option>
-                <option value="beauty &personal care">Beauty % personal Care</option>
-                <option value="books">Books</option>
-                <option value="boy's fashion">Boy's Fashion</option>
-                <option value="computers">Computers</option>
-                <option value="deals">deals</option>
-                <option value="digital music">Digital Music</option>
-                <option value="electronics">Electronics</option>
-                <option value="girl's fashion">Girl's Fashion</option>
-                <option value="health & household">Health & Household</option>
-                <option value="home &kitchen">Home &Kitchen</option>
-                <option value="industrial & scientific">Industrial & Scientific</option>
-                <option value="kindle store">Kindle Store</option>
-                <option value="luggage">Luggage</option>
-                <option value="men's fashion">Men's Fashion</option>
-                <option value="movies & tv">Movies & TV</option>
-                <option value="music, cds & vinyl">Music, CDs & Vinyl</option>
-                <option value="pet supplies">Pet Supplies</option>
-                <option value="prime video">Prime Video</option>
-                <option value="software">Software</option>
-                <option value="sports & outdoors">Sports & Outdoors</option>
-                <option value="tools & home improvement">Tools & Home Improvement</option>
-                <option value="toy's & games">Toy's & Games</option>
-                <option value="video games">Video Games</option>
-                <option value="women's fashion">Women's Fashion</option>
-            </select>
-            <input type="text"class="input" placeholder="search amazon">
-            <button id="search-icon">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
+        <!-- ending of navbar -->
+        <!-- starting of lower-navbar -->
+        <div class="lower-navbar">
+            <!-- starting of three line  -->
+            <div class="left-lower-navbar">
+                <i class="fa-solid fa-bars" id="bar"></i>
+                <span class="lower-navbar-option">All</span>
+            </div>
+            <!-- ending of three line -->
+            <!-- starting of other options -->
+            <div class="right-lower-navbar">
+                <div class="deals">Today's Deals</div>
+                <div class="customer-service">Customer Service</div>
+                <div class="registry">Registry</div>
+                <div class="gift">Gift Cards</div>
+                <div class="sell">Sell</div>
+            </div>
+            <!-- ending of other options -->
         </div>
-        <!-- ending of search bar -->
-        <!-- starting of language -->
-        <div class="lang border">
-            <div class="country"></div>
-            <select class="language">
-                <option value="english">En</option>
-                <option value="bengali">Bengali</option>
-                <option value="hindi">Hindi</option>
-                <option value="tamil">Tamil</option>
-                <option value="talagu">Talagu</option>
-            </select>
-        </div>
-        <!-- ending of language -->
-        <!-- starting of sign in  -->
-        <div class="link">
-            <span class="login">Hello, sign in</span>
-            <span class="items">Accounts & Lists<i class="fa-solid fa-caret-down"></i></span>
-        </div>
-        <!-- ending of sing in  -->
-        <!--starting of order -->
-        <div class="order">
-            <span class="return">Returns</span>
-            <span class="order1">& Order</span>
-        </div>
-<!--         ending of order -->
-    </div>
+        <!-- ending of lower-navbar -->
+    </header>
 </body>
 </html>
