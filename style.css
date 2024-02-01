@@ -279,18 +279,17 @@
 .main-back{
     width: 1500px;
     height: 1340px;
-    padding: 20px 0px;
+    padding: 20px 10px;
     font-size: 13px;
     color: #0f1111;
     font-family: 'Times New Roman', Times, serif;
     display: flex;
-
     margin-top: -300px;
-    background-color: transparent white;
+    background-color: transparent;
 }
 .main-body{
     height: 420px;
-    width: auto;
+    width: 1500px;
     background-color: transparent;
     display: flex;
     justify-content: center;
